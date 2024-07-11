@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+* {
+    font-family: "Poppins", sans-serif;
+margin: 0; /* espaçamento externo*/
+padding: 0; /* espaçamento interno*/
+box-sizing: border-box;
+
+}
+
+/* * asterístico significa Tudo, ele vai aplicar esse estilo para tudo*/
+
+
+html{
+scroll-snap-type: y mandatory;
+
+
+
+}
+
+Video, .img-tesla {
+width: 100%; /*Largura*/
+height: 100%; /*Altura*/
+position: absolute; /* Posicionar o item em uma posição exata que eu desejar*/
+top: 0;
+left: 0;
+z-index: -1; /* Define que fica na frente de quem*/
+object-fit: cover; /* Fa com que o video cubra toda a tela*/
+filter: brightness(60%);
+
+}
+
+.logo {
+filter: brightness(100);
+position: fixed;
+width: 120px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.Sub-titulo{
+    color: white;
+
+}
+
+.item{
+position: relative;
+width: 100vw;  /* Tela toda - Largura */
+height: 100vh; /* Tela toda - Altura */
+display: flex; /* Habilita algumas Propriedades Css*/
+justify-content: space-between; /* Cria um espaçamento entre os itens*/
+flex-direction: column; /* Deixar um Item Debaixo do outro*/
+scroll-snap-align: start;
+}
+
+
+.info-carro {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.rodape{
+    text-align: center; /* Alinha meu Item no Cetro*/
+}
+
+button{
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    padding: 7px 80px;
+    border-radius: 5px; /* Arredonda a borda do botão*/
+    border: none; /* Tira a borda do botão*/
+    cursor: pointer; /* Coloca a Mãosinha no lugar do mouse*/
+   
+}
+
+.test-drive{
+    color: black;
+    background-color: white;
+
+
+
+}
+
+
+.info-modelx,.info-modelxx,.infomodelxxx{
+    color: black;
+    opacity: 0.8;
+}
+
+.texto-rodape{
+color: white;
+font-size: 12px; /* Tamanho do texto*/
+margin-top: 10px;
+
+}
+
+
+
