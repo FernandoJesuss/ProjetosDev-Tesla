@@ -104,3 +104,17 @@ margin-top: 10px;
 
 
 
+.formulario{
+position: fixed;
+top: 40px;
+width: 600px;
+height: 100%;
+z-index: 3;
+left: -50%;
+transition: 1.5s;
+margin-top: 9%;
+translate: -290px;
+
+
+
+}
