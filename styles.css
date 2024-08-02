@@ -94,7 +94,7 @@ button {
 }
 
 .formulario {
-    position: fixed;
+    position: absolute;
     top: 40px;
     width: 600px;
     height: 100%;
