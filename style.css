@@ -118,3 +118,85 @@ translate: -290px;
 
 
 }
+
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        color: white;
+        font-size: 20px;
+        margin-top: -55px;
+               
+    }
+    
+    .Sub-titulo {
+        color: white;
+    
+    }
+
+    Video, .img-tesla {
+       width: 100%; /*Largura*/
+        height: 100%; Altura
+        position: absolute; /* Posicionar o item em uma posição exata que eu desejar*/
+        top: 0;
+        left: 0;
+        z-index: -1; /* Define que fica na frente de quem*/
+        object-fit: cover; /* Fa com que o video cubra toda a tela*/
+        filter: brightness(60%);
+    }
+
+    .formulario{
+        position: absolute;
+        top: 50px;
+        width: 310px;
+        height: 80%;
+        z-index: 3;
+        transition: 1.5s;
+        margin-top: 9%;
+        translate: -155px;          
+                
+        }
+
+        button{
+            background-color: rgba(34, 34, 34, 0.8);
+            color: white;
+            padding: 7px 30px;
+            border-radius: 15px; /* Arredonda a borda do botão*/
+            border: none; /* Tira a borda do botão*/
+            cursor: pointer; /* Coloca a Mãosinha no lugar do mouse*/
+           /* margin: 0 auto; */
+        }
+
+        .item{
+            position: relative;
+            width: 100vw;  /* Tela toda - Largura */
+            height: 55vh; /* Tela toda - Altura */
+            display: flex; /* Habilita algumas Propriedades Css*/
+            justify-content: space-between; /* Cria um espaçamento entre os itens*/
+            flex-direction: column; /* Deixar um Item Debaixo do outro*/
+            scroll-snap-align: start;
+
+            }
+
+            .texto-rodape{
+                color: white;
+                font-size: 11px; /* Tamanho do texto*/
+                margin-top: 10px;
+                
+                }
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    
+}
