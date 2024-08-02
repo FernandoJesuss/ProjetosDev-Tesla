@@ -12,7 +12,6 @@
 
 /* * asterístico significa Tudo, ele vai aplicar esse estilo para tudo*/
 
-
 html {
     scroll-snap-type: y mandatory;
 
@@ -20,18 +19,13 @@ html {
 
 Video,
 .img-tesla {
-    width: 100%;
-    /*Largura*/
-    height: 100%;
-    /*Altura*/
-    position: absolute;
-    /* Posicionar o item em uma posição exata que eu desejar*/
+    width: 100%; /*Largura*/
+    height: 100%; /*Altura*/
+    position: absolute; /* Posicionar o item em uma posição exata que eu desejar*/
     top: 0;
     left: 0;
-    z-index: -1;
-    /* Define que fica na frente de quem*/
-    object-fit: cover;
-    /* Fa com que o video cubra toda a tela*/
+    z-index: -1; /* Define que fica na frente de quem*/
+    object-fit: cover; /* Fa com que o video cubra toda a tela*/
     filter: brightness(60%);
 
 }
@@ -54,16 +48,11 @@ h1 {
 
 .item {
     position: relative;
-    width: 100vw;
-    /* Tela toda - Largura */
-    height: 100vh;
-    /* Tela toda - Altura */
-    display: flex;
-    /* Habilita algumas Propriedades Css*/
-    justify-content: space-between;
-    /* Cria um espaçamento entre os itens*/
-    flex-direction: column;
-    /* Deixar um Item Debaixo do outro*/
+    width: 100vw; /* Tela toda - Largura */
+    height: 100vh; /* Tela toda - Altura */
+    display: flex; /* Habilita algumas Propriedades Css*/
+    justify-content: space-between; /* Cria um espaçamento entre os itens*/
+    flex-direction: column; /* Deixar um Item Debaixo do outro*/
     scroll-snap-align: start;
 
 }
@@ -74,20 +63,16 @@ h1 {
 }
 
 .rodape {
-    text-align: center;
-    /* Alinha meu Item no Cetro*/
+    text-align: center; /* Alinha meu Item no Cetro*/
 }
 
 button {
     background-color: rgba(34, 34, 34, 0.8);
     color: white;
     padding: 7px 80px;
-    border-radius: 5px;
-    /* Arredonda a borda do botão*/
-    border: none;
-    /* Tira a borda do botão*/
-    cursor: pointer;
-    /* Coloca a Mãosinha no lugar do mouse*/
+    border-radius: 5px; /* Arredonda a borda do botão*/
+    border: none; /* Tira a borda do botão*/
+    cursor: pointer; /* Coloca a Mãosinha no lugar do mouse*/
 
 }
 
@@ -106,7 +91,6 @@ button {
     color: white;
     font-size: 12px; /* Tamanho do texto*/
     margin-top: 10px;
-
 }
 
 .formulario {
@@ -128,12 +112,10 @@ button {
         color: white;
         font-size: 20px;
         margin-top: -55px;
-
     }
 
     .Sub-titulo {
         color: white;
-
     }
 
     Video,
@@ -186,19 +168,5 @@ button {
         margin-top: 10px;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 }
