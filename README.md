@@ -5,16 +5,16 @@
 
 <div align="center">
 
-![Logo Site](image.png)
+![Logo Site](https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/logo.png)
 
 </div>
 
-<h3 align="center"> Plano de Projeto</h3>
+<h3 align="center"> Plano de Projeto</h3>                            
 <br><br><br><br><br><br><br><br>
 
 <div align="center">
 
-| ![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/ad9c1716-af15-470e-a925-d86c746316fe)| **<h3>Plano de Projeto</h3>**| DATI |
+| ![image](https://github.com/FernandoJesuss/)| **<h3>Plano de Projeto</h3>**| DATI |
 | --------- | ------ | ------  |
 |   |   |  Versão 1.0.5 |
 
