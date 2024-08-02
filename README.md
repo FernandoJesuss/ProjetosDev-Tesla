@@ -1,12 +1,7 @@
-# ProjetosDev
-Projeto_Tesla
 
+<h1 align="center">Projeto Educacional Dev/Club</h1>
 
-
-
-<h1 align="center">  Site Tesla</h1>
-
-<h2 align="center"> Projeto Educacional Dev/Club</h2>
+<h2 align="center">Site Tesla </h2>
 
 <div align="center">
 
