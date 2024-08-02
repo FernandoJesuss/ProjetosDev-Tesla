@@ -136,9 +136,10 @@ button {
         width: 310px;
         height: 80%;
         z-index: 3;
-        transition: 1.5s;
+        transition: -0.8s;
         margin-top: 9%;
         translate: -155px;
+        
 
     }
 
@@ -168,5 +169,4 @@ button {
         margin-top: 10px;
 
     }
-    
 }
