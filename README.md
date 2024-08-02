@@ -12,9 +12,9 @@
 <h3 align="center"> Plano de Projeto</h3>                            
 <br><br><br><br><br><br><br><br>
 
-<div align="center">
+<div align="center" width: 130px>
 
-| ![image](https://github.com/FernandoJesuss/)| **<h3>Plano de Projeto</h3>**| DATI |
+| ![image](https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/devclub..png)| **<h3>Plano de Projeto</h3>**| DATI |
 | --------- | ------ | ------  |
 |   |   |  Versão 1.0.5 |
 
@@ -24,7 +24,7 @@
 
 <div align="center">
   
-| <p> SENAI </p>    | <p> Craques da Várzea</p> |
+| <p> SENAI </p>    | <p> Site Tesla</p> |
 | ---      | ---       |
 
 </div>
@@ -37,10 +37,10 @@
 
 |     Data      |    Versão |      Descrição                    |   Autor                  |
 |    :---:      |     :---: |        :---:                      |   :---:                  |
-| 23/10/2023    |     1.0.0 | Elaboração do Documento           | Fernando de Jesus Santos |
-| 27/10/2023    |     1.0.1 | Atualizado com o escopo do site   | Fernando de Jesus Santos | 
-| 02/11/2023    |     1.0.2 | Início do desenvolvimento do site | Fernando de Jesus Santos |
-| 20/11/2023    |     1.0.3 | Fim da página inicial             | Fernando de Jesus Santos |
+| 10/07/2024    |     1.0.0 | Elaboração do Documento           | Fernando de Jesus Santos |
+| 11/07/2024    |     1.0.1 | Atualizado com o escopo do site   | Fernando de Jesus Santos | 
+| 12/07/2024    |     1.0.2 | Início do desenvolvimento do site | Fernando de Jesus Santos |
+| 13/07/2024    |     1.0.3 | Fim da página inicial             | Fernando de Jesus Santos |
 
 <br><br><br><br><br><br><br><br>
 
