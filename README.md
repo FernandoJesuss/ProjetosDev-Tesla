@@ -95,17 +95,20 @@
 <p align="left">O site pode atrair entusiastas de carros e tecnologia de todas as idades e origens culturais. Além disso, pode servir como um ponto de encontro para pessoas que compartilham a paixão por automóveis e apreciam a arte relacionada a esse esporte.</p> 
 <br>
 <h4 align="left">2.	Escopo do Projeto</h4>
-<p align="left">● Na página inicial, o usuário terá acesso a um vídeo de apresentação dos carros, além de dois botões: um para cadastro de compra e outro para agendamento de test-drive. </p>
+<p align="left">● Na página inicial, o usuário terá acesso a um vídeo de apresentação dos carros, além de dois botões: um botão compre agora e o outro faça test-drive </p>
 
 <div align="center">  
   
-![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/ccd699ec-674f-40b4-b0ff-2159c0da726a)
+
+
+
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Pg%20inicial.png" width="920" height="600"/>
 
 </div>
 <br>
 
 <p align="left">
-●	Notícias – Na sessão notícias o usuário terá acesso a notícias dos acontecimentos, ao clica nas imagens o usuário será redirecionado para outro site com a notícia completa.</p> 
+●	Ao clicar no botão “Compre Agora”, o usuário será direcionado para uma página de cadastro, onde poderá registrar seu nome, sobrenome e e-mail para a pré-venda do veículo.</p> 
 
 <div align="center">  
   
