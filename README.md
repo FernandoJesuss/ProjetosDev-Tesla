@@ -14,7 +14,7 @@
 
 <div align="center" width: 130px>
 
-| <img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/devclub..png" width="320" height="205"/> | **<h3>Plano de Projeto</h3>**| DATI |
+| <img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/devclub..png" width="420" height="205"/> | **<h3>Plano de Projeto</h3>**| DATI |
 | --------- | ------ | ------  |
 |   |   |  Versão 1.0.5 |
 
@@ -102,7 +102,7 @@
 
 
 
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Pg%20inicial.png" width="900" height="600"/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Pg%20inicial.png" width="" height=""/>
 
 </div>
 <br>
@@ -112,7 +112,7 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="900" height="600"/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="" height=""/>
   
 </div>
 <br>
@@ -121,7 +121,7 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="900" height="600"/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="" height=""/>
 
 </div>
 <br>
