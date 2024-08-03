@@ -102,7 +102,7 @@
 
 
 
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Pg%20inicial.png" width="920" height="600"/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Pg%20inicial.png" width="900" height="600"/>
 
 </div>
 <br>
@@ -112,31 +112,31 @@
 
 <div align="center">  
   
-![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/d049ae66-0d17-46ac-afdd-c01f9e3a4298)
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="900" height="600"/>
   
 </div>
 <br>
 <p align="left">
-●	Times – Na sessão times o usuário terá acesso as histórias dos times da várzea, ao clica nas imagens o usuário será redirecionado para outro site com a história completa.</p>
+●	Ao clicar no botão “Agendar Test-Drive”, o usuário será direcionado para uma página de cadastro, onde poderá registrar seu nome, sobrenome e e-mail para agendar um test-drive do veículo.</p>
 
 <div align="center">  
   
-![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/145ec888-c388-4c4c-996c-9d4baf48e859)
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="900" height="600"/>
 
 </div>
 <br>
-<p align="left">●	Resenhas – Na sessão resenhas o usuário terá acesso a vídeo com as resenhas dos jogadores profissionais.</p>
+<p align="left">●	o site conta com mais duas paginas mostrando os modelos dos carro "Modelo 3".</p>
 <div align="center">  
   
-![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/211d75ad-ad76-4046-b3bb-7360a5e24d0a)
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/model-3.png" width="" height=""/>
 
 </div>
 <br>
-<p align="left">●	Sobre e Contato – Na sessão sobre e contato o usuário terá acesso as redes sociais e uma descrição sobre a nossa página, e acesso as tags home, notícias, campos, times e resenhas.</p>
+<p align="left">●	 E na parte final do site o "Modelo X".</p>
 
 <div align="center">  
   
-![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/2c786312-6096-4d09-a4bf-df53b766f2ea)
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/model-x.png" width="" height=""/>
 
 </div>
 <br><br>
@@ -145,10 +145,10 @@
 
 |     Marcos do Projeto       | Data Término| Entregáveis                                 
 |           :---:             |   :---:     |   :---:                    
-| Inicio do projeto           | 23/10/2023  | 27/10/2023        
-| Escopo do site              | 27/10/2023  | 02/10/2023 
-| Wire-frame do site          | 02/11/2023  | 04/10/2023 
-| Fim do desenvolvimento site | 20/11/2023  | 21/11/2023           
+| Inicio do projeto           | 10/07/2024  | 10/07/2024       
+| Escopo do site              | 11/07/2024  | 11/07/2024 
+| Wire-frame do site          | 12/07/2024  | 12/07/2024 
+| Fim do desenvolvimento site | 15/07/2024  | 15/07/2024           
 
 <br>
 <h4 align="left">3.	Equipe do Projeto</h4>
@@ -156,7 +156,7 @@
 
 |  Nome  |   Empresa/Área      | Papel / Perfil /Responsabilidades    | Informações de contato        |
 | :---:  |      :---:          |             :---:                    |          :---:                |
-| Fernando de Jesus Santos     | Galeria de Arte Web  | Desenvolvedor |fernando_ffernando@hotmail.com |
+| Fernando de Jesus Santos     | Projeto Educacional  | Desenvolvedor |fernando_ffernando@hotmail.com |
 
 
 
