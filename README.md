@@ -112,7 +112,7 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro_1.png" width="1000" height="500"/>
   
 </div>
 <br>
@@ -121,14 +121,14 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro_1.png" width="1000" height="500"/>
 
 </div>
 <br>
 <p align="left">●	o site conta com mais duas paginas mostrando os modelos dos carro "Modelo 3".</p>
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/model-3.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_model__3.png" width="1000" height="500"/>
 
 </div>
 <br>
@@ -136,7 +136,7 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/model-x.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_final_1.png" width="1000" height="500"/>
 
 </div>
 <br><br>
