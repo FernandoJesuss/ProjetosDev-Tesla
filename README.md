@@ -85,8 +85,8 @@
 
 <br><br><br>
 <h4 align="left">1.3.	Restrições</h4>
-<p align="left">●	O sistema será desenvolvido para plataformas web e desktop, com responsividade para dispositivos móveis.
-●	O sistema funciona perfeitamente no Google Chrome, bem como em outros navegadores e smartphones.
+<p align="left">●	O sistema será desenvolvido para plataformas web e desktop, com responsividade para dispositivos móveis.<br>
+●	O sistema funciona perfeitamente no Google Chrome, bem como em outros navegadores e smartphones.<br>
 ●	Neste projeto, foram utilizadas as seguintes linguagens e ferramentas: HTML5, CSS3, JavaScript e Figma.
 </p> 
 <br>
@@ -95,7 +95,7 @@
 <p align="left">O site pode atrair entusiastas de carros e tecnologia de todas as idades e origens culturais. Além disso, pode servir como um ponto de encontro para pessoas que compartilham a paixão por automóveis e apreciam a arte relacionada a esse esporte.</p> 
 <br>
 <h4 align="left">2.	Escopo do Projeto</h4>
-<p align="left">●	Home – Na home o usuário terá acesso a um vídeo de apresentação da várzea, e três cardes de destaque, acesso a barra de navegação com outras sessões, Notícias, Campos, Times, Resenhas, Sobre e Contato. </p>
+<p align="left">● Na página inicial, o usuário terá acesso a um vídeo de apresentação dos carros, além de dois botões: um para cadastro de compra e outro para agendamento de test-drive. </p>
 
 <div align="center">  
   
