@@ -71,7 +71,7 @@
 <p align="left">Este documento define o plano de projeto do sistema do Projeto Tesla.</p>
 <br>
 <h4 align="left">1.1.	Objetivos do Projeto	</h4>
-<p align="left">O objetivo deste projeto é criar um site que exiba os modelos de carros da Tesla, com uma coleção de imagens e vídeos. Isso permitirá que os usuários visualizem e apreciem os veículos antes de realizar a compra.</p>
+<p align="left">O objetivo deste projeto é desenvolver um site dedicado aos modelos de carros da Tesla, apresentando uma coleção abrangente de imagens e vídeos. Isso permitirá que os usuários explorem e apreciem os veículos em detalhes antes de tomar uma decisão de compra.</p>
 <br>
 <h4 align="left">1.2.	Premissas</h4>
 <p align="left">●	Quantidade de analistas (alunos) e seus cargos no projeto:</p> 
