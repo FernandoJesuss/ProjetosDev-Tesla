@@ -108,11 +108,29 @@ button {
 
 @media screen and (max-width: 600px) {
 
-    h1 {
-        color: white;
-        font-size: 20px;
-        margin-top: -55px;
+    .logo {
+        filter: brightness(100);
+        position: relative;
+        margin: 0 auto;
+        width: 260px;
+        margin-top: 15px;   
+
     }
+
+    .tes {
+        position: relative;
+        margin-top: -200px;
+        color: white;
+        font-size: 25px;     
+        
+    }
+
+h1 {
+    color: white;
+    font-size: 20px;
+    margin-top: -55px;   
+
+}
 
     .Sub-titulo {
         color: white;
@@ -140,7 +158,6 @@ button {
         margin-top: 9%;
         translate: -165px;
         
-
     }
 
     button {
