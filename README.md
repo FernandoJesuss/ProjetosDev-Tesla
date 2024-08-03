@@ -14,7 +14,7 @@
 
 <div align="center" width: 130px>
 
-| ![image](https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/devclub..png)| **<h3>Plano de Projeto</h3>**| DATI |
+| <img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/devclub..png" width="320" height="205"/> | **<h3>Plano de Projeto</h3>**| DATI |
 | --------- | ------ | ------  |
 |   |   |  Versão 1.0.5 |
 
@@ -24,7 +24,7 @@
 
 <div align="center">
   
-| <p> SENAI </p>    | <p> Site Tesla</p> |
+| <p> Dev/Club </p>    | <p> Site Tesla</p> |
 | ---      | ---       |
 
 </div>
@@ -68,31 +68,31 @@
 <br><br><br><br>
 <h4 align="left">1.	Introdução</h4>
 
-<p align="left">Este documento define o plano de projeto do sistema do Craques da Várzea.</p>
+<p align="left">Este documento define o plano de projeto do sistema do Projeto Tesla.</p>
 <br>
 <h4 align="left">1.1.	Objetivos do Projeto	</h4>
-<p align="left">O objetivo deste projeto é apresentar uma coleção de imagens e vídeos para que os usuários possam visualizá-las e apreciá-las, como exibir fotos e vídeos de um evento, compartilhar memórias pessoais ou simplesmente para entretenimento.</p>
+<p align="left">O objetivo deste projeto é criar um site que exiba os modelos de carros da Tesla, com uma coleção de imagens e vídeos. Isso permitirá que os usuários visualizem e apreciem os veículos antes de realizar a compra.</p>
 <br>
 <h4 align="left">1.2.	Premissas</h4>
 <p align="left">●	Quantidade de analistas (alunos) e seus cargos no projeto:</p> 
 
 <div align="left">
   
-| Fernando de Jesus Santos| Galeria de Arte Web | Desenvolvedor|
+| Fernando de Jesus Santos| Projeto Educacional | Desenvolvedor|
 | ---      | ---       |  ---
 
 </div>
 
 <br><br><br>
 <h4 align="left">1.3.	Restrições</h4>
-<p align="left">●	O sistema será desenvolvido em plataforma (web e desk).
-●	Sistema tem pleno funcionamento no Google Chrome, e nos demais navegadores.
-●	Serão utilizadas as linguagens HTML5, CSS3 e Figma.
+<p align="left">●	O sistema será desenvolvido para plataformas web e desktop, com responsividade para dispositivos móveis.
+●	O sistema funciona perfeitamente no Google Chrome, bem como em outros navegadores e smartphones.
+●	Neste projeto, foram utilizadas as seguintes linguagens e ferramentas: HTML5, CSS3, JavaScript e Figma.
 </p> 
 <br>
 
 <h4 align="left">1.4.	Público alvo do projeto</h4>
-<p align="left">Fãs de futebol, entusiastas do esporte em geral e pessoas interessadas em cultura pop. A galeria pode atrair tanto homens quanto mulheres, de diferentes faixas etárias e origens culturais. Além disso, pode ser um ponto de encontro para pessoas que compartilham o amor pelo futebol e apreciam a arte relacionada a esse esporte.</p> 
+<p align="left">O site pode atrair entusiastas de carros e tecnologia de todas as idades e origens culturais. Além disso, pode servir como um ponto de encontro para pessoas que compartilham a paixão por automóveis e apreciam a arte relacionada a esse esporte.</p> 
 <br>
 <h4 align="left">2.	Escopo do Projeto</h4>
 <p align="left">●	Home – Na home o usuário terá acesso a um vídeo de apresentação da várzea, e três cardes de destaque, acesso a barra de navegação com outras sessões, Notícias, Campos, Times, Resenhas, Sobre e Contato. </p>
