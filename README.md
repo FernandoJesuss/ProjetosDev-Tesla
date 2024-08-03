@@ -112,7 +112,7 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg%20cadastro.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro.png" width="" height=""/>
   
 </div>
 <br>
