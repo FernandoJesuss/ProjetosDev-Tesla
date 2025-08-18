@@ -1,189 +1,488 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    font-family: "Poppins", sans-serif;
     margin: 0;
-    /* espaçamento externo*/
     padding: 0;
-    /* espaçamento interno*/
     box-sizing: border-box;
-
 }
 
-/* * asterístico significa Tudo, ele vai aplicar esse estilo para tudo*/
-
-html {
-    scroll-snap-type: y mandatory;
-
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #000;
+    color: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-Video,
-.img-tesla {
-    width: 100%; /*Largura*/
-    height: 100%; /*Altura*/
-    position: absolute; /* Posicionar o item em uma posição exata que eu desejar*/
+header {
+    position: fixed;
     top: 0;
-    left: 0;
-    z-index: -1; /* Define que fica na frente de quem*/
-    object-fit: cover; /* Fa com que o video cubra toda a tela*/
-    filter: brightness(60%);
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .logo {
-    filter: brightness(100);
-    position: fixed;
-    width: 120px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    color: #fff;
 }
 
-h1 {
-    color: white;
-    font-size: 50px;
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
 }
 
-.Sub-titulo {
-    color: white;
-
-}
-
-.item {
+.nav-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
     position: relative;
-    width: 100vw; /* Tela toda - Largura */
-    height: 100vh; /* Tela toda - Altura */
-    display: flex; /* Habilita algumas Propriedades Css*/
-    justify-content: space-between; /* Cria um espaçamento entre os itens*/
-    flex-direction: column; /* Deixar um Item Debaixo do outro*/
-    scroll-snap-align: start;
-
 }
 
-.info-carro {
-    margin-top: 80px;
+.nav-links a:hover {
+    color: #fff;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #ff0080, #7928ca);
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+    filter: brightness(60%);
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23667eea;stop-opacity:1" /><stop offset="100%" style="stop-color:%23764ba2;stop-opacity:1" /></linearGradient></defs><rect width="1200" height="800" fill="url(%23grad1)"/></svg>') center/cover;
+    animation: backgroundShift 20s ease-in-out infinite;
+}
+
+@keyframes backgroundShift {
+
+    0%,
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.1) rotate(1deg);
+    }
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 2;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #fff, #a8edea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: textGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes textGlow {
+    from {
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+    }
+
+    to {
+        filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.6));
+    }
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 18px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    z-index: 999;
+    background: linear-gradient(135deg, #ff0080, #7928ca);
+    color: white;
+    box-shadow: 0 10px 30px rgba(255, 0, 128, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255, 0, 128, 0.4);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+}
+
+.car-showcase {
+    padding: 100px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.showcase-content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #fff, #a8edea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.showcase-content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.car-image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.car-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+}
+
+.car-placeholder {
+    width: 80%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.features {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0f0f23, #1a1a2e);
+}
+
+.features-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    background: linear-gradient(135deg, #fff, #a8edea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ff0080, #7928ca);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.specs {
+    padding: 100px 20px;
+    background: #000;
+}
+
+.specs-container {
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
 }
 
-.rodape {
-    text-align: center; /* Alinha meu Item no Cetro*/
+.specs h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    background: linear-gradient(135deg, #fff, #a8edea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-button {
-    background-color: rgba(34, 34, 34, 0.8);
-    color: white;
-    padding: 7px 80px;
-    border-radius: 5px; /* Arredonda a borda do botão*/
-    border: none; /* Tira a borda do botão*/
-    cursor: pointer; /* Coloca a Mãosinha no lugar do mouse*/
-
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
 }
 
-.test-drive {
-    color: black;
-    background-color: white;
-
+.spec-item {
+    padding: 30px;
 }
 
-.info-modelx,.info-modelxx,.infomodelxxx {
-    color: black;
+.spec-number {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #ff0080, #7928ca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+.spec-label {
+    font-size: 1.1rem;
     opacity: 0.8;
 }
 
-.texto-rodape {
-    color: white;
-    font-size: 12px; /* Tamanho do texto*/
-    margin-top: 10px;
+footer {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0f0f23, #1a1a2e);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.formulario {
-    position: absolute;
-    top: 40px;
-    width: 600px;
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    z-index: 3;
-    left: -50%;
-    transition: 1.5s;
-    margin-top: 9%;
-    translate: -290px;
-
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    transition: opacity 0.5s ease;
 }
 
-@media screen and (max-width: 600px) {
-
-    .logo {
-        filter: brightness(100);
-        position: relative;
-        margin: 0 auto;
-        width: 260px;
-        margin-top: 15px;   
-
-    }
-
-    .tes {
-        position: relative;
-        margin-top: -200px;
-        color: white;
-        font-size: 25px;     
-        
-    }
-
-h1 {
-    color: white;
-    font-size: 20px;
-    margin-top: -55px;   
-
+.loading.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
-    .Sub-titulo {
-        color: white;
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top: 3px solid #ff0080;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
     }
 
-    Video,
-    .img-tesla {
-        width: 100%; /*Largura*/
-        height: 100%;/* Altura*/ 
-        position: absolute; /* Posicionar o item em uma posição exata que eu desejar*/
-        top: 0;
-        left: 0;
-        z-index: -1; /* Define que fica na frente de quem*/
-        object-fit: cover;/* Fa com que o video cubra toda a tela*/
-        filter: brightness(60%);
+    100% {
+        transform: rotate(360deg);
     }
+}
 
-    .formulario {
-        position: absolute;
-        top: 50px;
-        width: 310px;
-        height: 80%;
-        z-index: 3;
-        transition: -0.8s;
-        margin-top: 9%;
-        translate: -165px;
-        
-    }
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
 
-    button {
-        background-color: rgba(34, 34, 34, 0.8);
-        color: white;
-        padding: 7px 30px;
-        border-radius: 15px; /* Arredonda a borda do botão*/
-        border: none;/* Tira a borda do botão*/
-        cursor: pointer;/* Coloca a Mãosinha no lugar do mouse*/       
-    }
-
-    .item {
-        position: relative;
-        width: 100vw; /* Tela toda - Largura */
-        height: 55vh; /* Tela toda - Altura */
-        display: flex; /* Habilita algumas Propriedades Css*/
-        justify-content: space-between; /* Cria um espaçamento entre os itens*/
-        flex-direction: column; /* Deixar um Item Debaixo do outro*/
-        scroll-snap-align: start;
-
-    }
-
-    .texto-rodape {
-        color: white;
-        font-size: 11px; /* Tamanho do texto*/
-        margin-top: 10px;
-
-    }
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
 }

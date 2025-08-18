@@ -1,62 +1,164 @@
-<!DOCTYPE html> <!-- VERSÃO DO HTML -->
-<html lang="pt-br"> <!-- TAG HTML E LINGUA DO SITE -->
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-<head> <!-- CONFIGURAÇÕES DO SITE -->
-    <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES DO SITE -->
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SITE COMPATÍVEL COM CELULAR E COMPUTADOR -->
     <link rel="stylesheet" href="styles.css">
-   
-    <title>DevClub - Tesla</title> <!-- TITULO DO SITE -->
+    <title>Projeto Tesla</title>
 </head>
 
 <body>
-    <ul class="Lista">
-        <!-- ITEM 1-->
-        <li class="item">
-            <img src="./img/logo.png" alt="logo da tesla" class="logo">
 
-            <video src="./video/model-y.mp4" muted loop autoplay></video>
-            <div class="info-carro">
-                <h1 class="tes">Modelo Y</h1>
-                <p class="Sub-titulo">Parcelar a partir de R$: 499 Reais</p>
-            </div>
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
 
-            <div class="rodape">
-                <button onclick="aparecerformulario()">Comprar Agora</button>
-                <button class="test-drive">Faça um Test-Drive</button>
-                <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque</p>
-            </div>
-            </div>
-        </li>
-        <!-- ITEM 2-->
-        <li class="item">
-            <img src="./img/model-3.png" alt="" class="img-tesla" alt="imagem model 3">
-            <div class="info-carro">
-                <h1>Modelo 3</h1>
-                <p class="Sub-titulo">Compre agora o seu Tesla</p>
-            </div>
+    <header>
+        <nav>
+            <div class="logo">TESLA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#specs">Especificações</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        </li>
-        <!-- ITEM 3-->
-        <li class="item">
+    <section class="hero" id="home">
+        <video autoplay muted loop class="background-video">
+            <source src="./video/model-y.mp4" type="video/mp4">
+        </video>
 
-            <img src="./img/model-x.png" alt="" class="img-tesla" alt="imagem model x">
-            <div class="info-carro">
-                <div class="info-modelx">
-                    <h1 class="info-modelxx"> Modelo X </h1>
-                    <p class="info-modelxxx">Parcelar a partir de R$: 499 Reais</p>
+        <div class="hero-content fade-in">
+            <h1>Model Y</h1>
+            <p>Potencial e ponto de vista de 506 hp de pura energia elétrica.<br>
+                O futuro da mobilidade sustentável chegou.</p>
+            <div class="cta-buttons">
+                <a href="#specs" class="btn btn-primary">Configurar Agora</a>
+                <a href="#features" class="btn btn-secondary">Test Drive</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="car-showcase">
+        <div class="showcase-grid fade-in">
+            <div class="showcase-content">
+                <h2>Design Inovador</h2>
+                <p>Cada detalhe foi pensado para oferecer a melhor experiência de condução. Do porta-malas espaçoso aos
+                    assentos premium, o Model Y redefine o conceito de SUV elétrico.</p>
+                <a href="#features" class="btn btn-primary">Explorar Interior</a>
+            </div>
+            <div class="car-image">
+                <img src="./img/model-xx.png" alt="Porta malas model x" class="car-image">
+
+            </div>
+        </div>
+
+        <div class="showcase-grid fade-in">
+            <div class="car-image">
+                <img src="./img/model-3.png" alt="Model x em Movimento" class="car-image">
+
+            </div>
+            <div class="showcase-content">
+                <h2>Performance Excepcional</h2>
+                <p>Aceleração de 0 a 100 km/h em apenas 3,7 segundos. Autonomia de até 533 km. A tecnologia Tesla
+                    oferece uma experiência de condução única e sustentável.</p>
+                <a href="#specs" class="btn btn-primary">Ver Especificações</a>
+            </div>
+        </div>
+
+        <div class="showcase-grid fade-in">
+            <div class="showcase-content">
+                <h2>Tecnologia Avançada</h2>
+                <p>Sistema de piloto automático, tela touch de 15", carregamento superfast e atualizações over-the-air.
+                    O Model Y está sempre evoluindo.</p>
+                <a href="#features" class="btn btn-primary">Descobrir Mais</a>
+            </div>
+            <div class="car-image">
+                <img src="./img/Tesla_s.png" alt="Model s" class="car-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-container">
+            <h2 class="fade-in">Recursos Avançados</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Carregamento Rápido</h3>
+                    <p>Carregue até 270 km de autonomia em apenas 15 minutos nos Superchargers Tesla.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Piloto Automático</h3>
+                    <p>Sistema avançado de assistência à condução com recursos de segurança ativa.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">📱</div>
+                    <h3>Conectividade Total</h3>
+                    <p>Controle seu Model Y remotamente através do aplicativo Tesla.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🔋</div>
+                    <h3>Bateria Avançada</h3>
+                    <p>Tecnologia de ponta com garantia de 8 anos ou 192.000 km.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Zero Emissões</h3>
+                    <p>100% elétrico, contribuindo para um futuro sustentável.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Espaço Interno</h3>
+                    <p>Capacidade para 7 passageiros com amplo espaço para bagagens.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-        </li>
-    </ul>
-    <div class="formulario">
-        <script src="formulario.js"></script>
-        <button onclick="desaparecerformulario()">Febha</button>
-        <script type="text/javascript" src="https://form.jotform.com/jsform/241938263810054"></script>
-    </div>
+    <section class="specs" id="specs">
+        <div class="specs-container">
+            <h2 class="fade-in">Especificações</h2>
+            <div class="specs-grid">
+                <div class="spec-item fade-in">
+                    <div class="spec-number">506</div>
+                    <div class="spec-label">HP de Potência</div>
+                </div>
+                <div class="spec-item fade-in">
+                    <div class="spec-number">3.7s</div>
+                    <div class="spec-label">0-100 km/h</div>
+                </div>
+                <div class="spec-item fade-in">
+                    <div class="spec-number">533</div>
+                    <div class="spec-label">km de Autonomia</div>
+                </div>
+                <div class="spec-item fade-in">
+                    <div class="spec-number">250</div>
+                    <div class="spec-label">km/h Vel. Máxima</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-logo">TESLA</div>
+            <div class="footer-links">
+                <a href="#">Sobre</a>
+                <a href="#">Carreiras</a>
+                <a href="#">Investidores</a>
+                <a href="#">Suporte</a>
+                <a href="#">Privacidade</a>
+            </div>
+            <p style="opacity: 0.6;">&copy; 2025 Tesla, Inc. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="formulario.js"></script>
+
 </body>
-
 
 </html>
