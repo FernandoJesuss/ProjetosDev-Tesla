@@ -95,12 +95,12 @@
 <p align="left">O site pode atrair entusiastas de carros e tecnologia de todas as idades e origens culturais. Além disso, pode servir como um ponto de encontro para pessoas que compartilham a paixão por automóveis e apreciam a arte relacionada a esse esporte.</p> 
 <br>
 <h4 align="left">2.	Escopo do Projeto</h4>
-<p align="left">● Na página inicial, o usuário terá acesso a um vídeo de apresentação dos carros, além de dois botões: um botão "comprar Agora" e o outro "Faça test-drive" </p>
+<p align="left">● Na página inicial, o usuário terá acesso a um vídeo de apresentação dos carros, além de dois botões: um botão "Configurar" e o outro "Test-drive" </p>
 
 <div align="center">  
   
 
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Platafomas.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pc_tesla.png" width="" height=""/>
 
 
 
@@ -108,27 +108,27 @@
 <br>
 
 <p align="left">
-●	Ao clicar no botão “Comprar Agora”, o usuário será direcionado para uma página de cadastro, onde poderá registrar seu nome, sobrenome e e-mail para a pré-venda do veículo.</p> 
+●	Ao clicar no botão “Configurar”, o usuário será direcionado para a parte de especificações.</p> 
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro_1.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_footer_tesla.png" width="" height=""/>
   
 </div>
 <br>
 <p align="left">
-●	Ao clicar no botão “Agendar Test-Drive”, o usuário será direcionado para uma página de cadastro, onde poderá registrar seu nome, sobrenome e e-mail para agendar um test-drive do veículo.</p>
+●	Ao clicar no botão “Test-Drive”, o usuário será direcionado para a parte de recursos avançados.</p>
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro_1.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_rca_tesla.png" width="" height=""/>
 
 </div>
 <br>
-<p align="left">●	o site conta com mais duas paginas mostrando os modelos dos carro "Modelo 3".</p>
+<p align="left">●	o site conta com responsividade para todos os tipos de telas.</p>
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_model__3.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/smartphone_tesla.png" width="" height=""/>
 
 </div>
 <br>
