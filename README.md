@@ -100,7 +100,7 @@
 <div align="center">  
   
 
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pc_tesla.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pc_tesla.png" width="600" height="400"/>
 
 
 
@@ -110,7 +110,7 @@
 ●	O site conta com a parte de design do carros.</p> 
 <div align="center">
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_design_tesla.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_design_tesla.png" width="600" height="400"/>
 </div>
 
 <br>
@@ -119,14 +119,14 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_rca_tesla.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_rca_tesla.png" width="600" height="400"/>
 
 </div>
 <br>
 <p align="left">●	o site conta com responsividade para todos os tipos de telas.</p>
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/smartphone_tesla.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/smartphone_tesla.png" width="600" height="400"/>
 
 </div>
 <br>
@@ -135,7 +135,7 @@
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_footer_tesla.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_footer_tesla.png" width="600" height="400"/>
   
 </div>
 
