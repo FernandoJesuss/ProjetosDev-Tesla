@@ -104,17 +104,15 @@
 
 
 
-</div>
-<br>
+</div><br>
 
 <p align="left">
-●	Ao clicar no botão “Configurar”, o usuário será direcionado para a parte de especificações.</p> 
-
-<div align="center">  
+●	O site conta com a parte de design do carros.</p> 
+<div align="center">
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_footer_tesla.png" width="" height=""/>
-  
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_design_tesla.png" width="" height=""/>
 </div>
+
 <br>
 <p align="left">
 ●	Ao clicar no botão “Test-Drive”, o usuário será direcionado para a parte de recursos avançados.</p>
@@ -132,11 +130,14 @@
 
 </div>
 <br>
-<p align="left">●	 E na parte final do site o "Modelo X".</p>
+<p align="left">
+●	Na parte final do site, o usuário parte do menu.</p> 
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_final_1.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/tela_footer_tesla.png" width="" height=""/>
+  
+</div>
 
 </div>
 <br><br>
