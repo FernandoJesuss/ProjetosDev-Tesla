@@ -20,7 +20,6 @@
 // formulario.style.left = "-50%"
 
 // }
-
 // Loading screen
 window.addEventListener('load', () => {
     setTimeout(() => {
@@ -46,6 +45,28 @@ document.querySelectorAll('.fade-in').forEach(el => {
     observer.observe(el);
 });
 
+// Hamburger menu functionality
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links'); 
+
+if (hamburger && navLinks) {
+    hamburger.addEventListener('click', function () {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('mobile');
+        navLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    const navItems = navLinks.querySelectorAll('a');
+    navItems.forEach(item => {
+        item.addEventListener('click', function () {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('mobile');
+            navLinks.classList.remove('active');
+        });
+    });
+}
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -63,10 +84,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Header background on scroll
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
-    if (window.scrollY > 100) {
-        header.style.background = 'rgba(0, 0, 0, 0.95)';
-    } else {
-        header.style.background = 'rgba(0, 0, 0, 0.8)';
+    if (header) {
+        if (window.scrollY > 100) {
+            header.style.background = 'rgba(0, 0, 0, 0.95)';
+        } else {
+            header.style.background = 'rgba(0, 0, 0, 0.8)';
+        }
     }
 });
 
@@ -91,4 +114,3 @@ document.querySelectorAll('.feature-card').forEach(card => {
         this.style.boxShadow = 'none';
     });
 });
-

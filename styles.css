@@ -74,6 +74,58 @@ nav {
     width: 100%;
 }
 
+.hamburger {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav-links.mobile {
+    position: fixed;
+    top: 39px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 40px);
+    background: rgba(0, 0, 0, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    transition: left 0.3s ease;
+    z-index: 999;
+}
+
+.nav-links.mobile.active {
+    left: 0;
+}
+
+.nav-links.mobile a {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
 .hero {
     height: 100vh;
     position: relative;
@@ -92,28 +144,6 @@ nav {
     object-fit: cover;
     z-index: -1; 
     filter: brightness(60%);
-}
-
-.hero-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23667eea;stop-opacity:1" /><stop offset="100%" style="stop-color:%23764ba2;stop-opacity:1" /></linearGradient></defs><rect width="1200" height="800" fill="url(%23grad1)"/></svg>') center/cover;
-    animation: backgroundShift 20s ease-in-out infinite;
-}
-
-@keyframes backgroundShift {
-
-    0%,
-    100% {
-        transform: scale(1) rotate(0deg);
-    }
-
-    50% {
-        transform: scale(1.1) rotate(1deg);
-    }
 }
 
 .hero-content {
@@ -138,7 +168,6 @@ nav {
     from {
         filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
     }
-
     to {
         filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.6));
     }
@@ -246,19 +275,6 @@ nav {
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
 }
 
-.car-placeholder {
-    width: 80%;
-    height: 60%;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-}
-
 .features {
     padding: 100px 20px;
     background: linear-gradient(135deg, #0f0f23, #1a1a2e);
@@ -271,7 +287,7 @@ nav {
 
 .features h2 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 80px;
     background: linear-gradient(135deg, #fff, #a8edea);
@@ -337,7 +353,7 @@ nav {
 }
 
 .specs h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 80px;
     background: linear-gradient(135deg, #fff, #a8edea);
@@ -410,11 +426,19 @@ footer {
 
 @media (max-width: 768px) {
     .nav-links {
-        display: none;
+        display: none; 
+    }
+
+    .hamburger {
+        display: flex; 
+    }
+
+    .nav-links.mobile {
+        display: flex; 
     }
 
     .showcase-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
         gap: 40px;
     }
 
@@ -429,11 +453,11 @@ footer {
     }
 
     .features-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
     }
 
     .specs-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
@@ -447,7 +471,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10000;
+    z-index: 9999;
     transition: opacity 0.5s ease;
 }
 
@@ -469,7 +493,6 @@ footer {
     0% {
         transform: rotate(0deg);
     }
-
     100% {
         transform: rotate(360deg);
     }
@@ -484,4 +507,24 @@ footer {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0 1rem;
+    }
+
+    .hero-content {
+        padding: 0 1rem;
+    }
+
+    .car-showcase,
+    .features,
+    .specs {
+        padding: 3rem 1rem;
+    }
+
+    .spec-number {
+        font-size: 2.5rem;
+    }
 }
